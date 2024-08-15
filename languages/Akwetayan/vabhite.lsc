@@ -1,0 +1,28 @@
+Class c {p, t, k, b, d, g, s, x, š, q, ł, n, m, y, r, ŋ, ǰ, č, ʷ, ʼ, v, ñ, h, ś, l, c, j}
+Class v {a, e, i, o, u, ă, ĕ, ĭ, ŏ, ŭ, ā, ē, ī, ō, ū}
+
+pre:
+    {o, a} => * / @c _ $ // $ @c _ $
+
+v:
+    {ā, ē, ī, ō, ū} => {o, i, ai, u, va}
+    ay => ai
+
+c:
+    w => v
+    {t, d} => {y, l} / @v _ @v
+    {š, č} => {ś, c}
+    {ṭ, ḍ} => {th, dh}
+    x => kh
+    ʼ => *
+    h => * / _ $
+
+p:
+    {oy, ai} => ē / _ {@c, $}
+    yv => jv
+    {a, e, i, o, u} {p, b} => {ā, ē, ī, ō, ū} * / _ $
+    then: ēi => ī
+    {oya, oyo, aya} => yā / $ _
+    {oya, oyo, aya} => yā / @c _ @c
+    ñv => j
+    oyi => oi
