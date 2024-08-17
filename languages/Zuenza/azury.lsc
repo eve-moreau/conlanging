@@ -15,12 +15,13 @@ v:
 
     then: jeje => jej
     then: ijij => jaj
+    then: juju => juj
 
     then: {aa, ee, ii, oo, uu} => {ja, je, ij, u, ju}
 
 c:
     p => u / @c _ $
-    {mb, ng} => {m, n}
+    {mb, ng, nm} => {m, n, m}
     then: nr => nd / _ $
     am => o / _ $
     {čz, šz} => {dž, ž}

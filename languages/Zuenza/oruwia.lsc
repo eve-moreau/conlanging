@@ -19,3 +19,5 @@ p:
     ae => e
     ęa => ą
     n => y / @c _ @c
+    then: sśt => śt
+    then: eo => ej
