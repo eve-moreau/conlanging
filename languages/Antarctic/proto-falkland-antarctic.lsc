@@ -10,3 +10,4 @@ c:
     r => l / _ {@c, $}
     q => g
     w => b
+    then: lr => r

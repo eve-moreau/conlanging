@@ -2,4 +2,5 @@ Class c {b, d, g, p, t, k, s, z, š, ž, č, ǰ, ť, ď, r, l, ñ, y, m, n, w, q
 Class v {a, e, i, o, u}
 
 c:
-    gw => j
+    {gw, ǰ} => j
+    {my, ny} => {mm, nn}
