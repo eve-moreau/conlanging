@@ -1,9 +1,9 @@
-PRE=~/Desktop/PC-PC/Lex
+PRE=~/conlanging/languages
 echo "Please enter language family:"
 read LEX
 
 loop() {
-  cd ~/Desktop/PC-PC/lexurgy/bin
+  cd ~/conlanging/sca/bin
   nano words.wli
   for lang in "$@"; do
     echo "Processing $lang"
