@@ -16,6 +16,7 @@ loop() {
   cat words.wli
   echo ""
   echo "-----------------------------------------"
+  read "Press ENTER to continue..."
 }
 
 while true
