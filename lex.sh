@@ -4,7 +4,7 @@ read LEX
 
 loop() {
   cd ~/conlanging/sca/bin
-  nano words.wli
+  micro words.wli
   for lang in "$@"; do
     echo "Processing $lang"
     chmod +x lexurgy
