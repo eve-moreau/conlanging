@@ -19,3 +19,8 @@ c:
 
 p:
     ŋ => ň
+    {p, t, k, s} => {b, d, g, z} / {b, d, g, z} _
+    {sš, šs} => š
+
+vowel-diacritics:
+    {aa, ee, ii, oo, uu} => {á, é, í, ó, ú}

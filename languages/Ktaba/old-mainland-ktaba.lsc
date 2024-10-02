@@ -3,7 +3,7 @@ Class v {a, e, o, ā, ē, ō}
 
 v:
     {au, ie, eu} => {o, i, e}
-    {a, e, i, o, u} => {i, i, e, a, a}
+    {a, e, i, o, u} => {i, i, e, a, u}
 
 c:
     x => s
